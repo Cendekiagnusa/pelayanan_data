@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="codebase/webix.css">
+    <script type="text/javascript" src="codebase/webix.js" charset="utf-8">
+    </script>
+    <meta charset="utf-8">
+    <title>SPMI</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      webix.ui({
+        rows:[
+          {view:"tabbar", multiview:true, options:[
+            {id:"1", name:"p", value:"P"},
+            {id:"2", name:"p", value:"P"},
+            {id:"3", name:"e", value:"E"},
+            {id:"4", name:"p", value:"P"},
+            {id:"5", name:"p", value:"P"}
+          ]
+        },
+        {cells:[
+          { id:"1", view:"form", elements:[
+            {view:"button", type:"form", value:"Standard Nasional Pendidikan", width:150, height:150},
+            {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional", width:150, height:150},
+            {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional Pengabdian Kepada Masyarakat", width:150, height:150}
+          ]
+        },
+        { id:"2", view:"form", elements:[
+          {view:"button", type:"form", value:"Standard Nasional Pendidikan", width:150, height:150},
+          {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional", width:150, height:150},
+          {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional Pengabdian Kepada Masyarakat", width:150, height:150}
+        ]
+      },
+      { id:"3", view:"form", elements:[
+        {view:"button", type:"form", value:"Standard Nasional Pendidikan", width:150, height:150},
+        {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional", width:150, height:150},
+        {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional Pengabdian Kepada Masyarakat", width:150, height:150}
+      ]
+    },
+    { id:"4", view:"form", elements:[
+      {view:"button", type:"form", value:"Standard Nasional Pendidikan", width:150, height:150},
+      {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional", width:150, height:150},
+      {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional Pengabdian Kepada Masyarakat", width:150, height:150}
+    ]
+  },
+  { id:"5", view:"form", elements:[
+    {view:"button", type:"form", value:"Standard Nasional Pendidikan", width:150, height:150},
+    {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional", width:150, height:150},
+    {view:"button", type:"form", value:"Ruang Lingkup Standar Nasional Pengabdian Kepada Masyarakat", width:150, height:150}
+  ]
+},
+        ]
+      }
+        ]
+      });
+    </script>
+  </body>
+</html>
