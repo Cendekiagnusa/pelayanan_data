@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Ruang Lingkup Standar Nasional Penelitian</title>
+        <link rel="stylesheet" href="codebase/webix.css" type="text/css" charset="utf-8">
+        <script src="codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+<style>
+.my_radio .webix_inp_label {color:black;}
+.my_radio .webix_label_right {color:black;}
+.my_radio .webix_radio_option {
+  color:red;
+}
+
+
+
+</style>
+      <script>
+
+      webix.ui({
+
+           rows:[
+             {
+               view:"form",
+                rows:[{
+                        view:"radio", name:"rlsnp1", css:"my_radio", label:"Standar Hasil Penelitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp2", css:"my_radio", label:"Standar Isi Penelitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp3", css:"my_radio", label:"Standar Proses Penilitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp4", css:"my_radio", label:"Standar Penilaian Penilitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp5", css:"my_radio", label:"Standar Peneliti", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp6", css:"my_radio", label:"Standar Sarana dan Prasarana Penelitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp7", css:"my_radio", label:"Standar Pengelolaan Penelitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      },
+
+                      {
+                        view:"radio", name:"rlsnp8", css:"my_radio", label:"Standar Pendanaan dan Pembiayaan Penelitian", labelWidth:600, options:[
+                            {id:1, value:"Sesuai SN-DIKTI"},
+                            {id:2, value:"Belum Menetapkan"}
+                        ]
+                      }
+
+
+               ]
+             }
+           ]
+         });
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
